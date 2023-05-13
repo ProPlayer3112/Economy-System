@@ -18,7 +18,7 @@ intents.message_content = True
 activity = discord.Activity(type=discord.ActivityType.watching, name="💻|Proplayer#3112")
 
 bot = bridge.Bot(intents=intents ,
-                  debug_guilds=[1029377020779565096 , 1049369754982424637],
+                  debug_guilds=[#Deine Server-ID],
                   activity=activity
                   )
 
